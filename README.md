@@ -53,8 +53,6 @@ This project is not possible without multiple great open-sourced codebases. We l
 - [OpenPCDet](https://github.com/open-mmlab/OpenPCDet)
 - [SA-SSD](https://github.com/skyhehe123/SA-SSD/)
 
-
-
 ```
 @article{Weng2020_AB3DMOT, 
 author = {Weng, Xinshuo and Wang, Jianren and Held, David and Kitani, Kris}, 

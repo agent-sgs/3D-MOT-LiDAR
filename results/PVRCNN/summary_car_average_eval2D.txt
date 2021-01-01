@@ -1,0 +1,196 @@
+============evaluation with confidence threshold 0.000000, recall 0.925830===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.7635 0.8683 0.8486 0.0054     9    60 0.9007 0.8769 0.9258 0.3205  8950  1256   717
+=====================================================================================
+============evaluation with confidence threshold 0.025000, recall 0.925416===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.7731 0.8684 0.8486 0.0054     9    59 0.9044 0.8841 0.9256 0.2993  8946  1173   719
+=====================================================================================
+============evaluation with confidence threshold 0.050000, recall 0.924796===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.7845 0.8685 0.8432 0.0054     7    57 0.9086 0.8925 0.9253 0.2748  8940  1077   722
+=====================================================================================
+============evaluation with confidence threshold 0.075000, recall 0.923968===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.7905 0.8688 0.8432 0.0054     5    55 0.9108 0.8973 0.9246 0.2608  8932  1022   728
+=====================================================================================
+============evaluation with confidence threshold 0.100000, recall 0.923141===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.7954 0.8689 0.8432 0.0054     4    50 0.9126 0.9015 0.9239 0.2488  8924   975   735
+=====================================================================================
+============evaluation with confidence threshold 0.125000, recall 0.921692===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.7999 0.8690 0.8378 0.0108     3    48 0.9141 0.9051 0.9233 0.2383  8910   934   740
+=====================================================================================
+============evaluation with confidence threshold 0.150000, recall 0.921692===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8039 0.8690 0.8378 0.0108     3    48 0.9157 0.9083 0.9233 0.2297  8910   900   740
+=====================================================================================
+============evaluation with confidence threshold 0.175000, recall 0.920658===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8071 0.8693 0.8378 0.0108     2    45 0.9169 0.9114 0.9224 0.2207  8900   865   749
+=====================================================================================
+============evaluation with confidence threshold 0.200000, recall 0.919623===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8090 0.8695 0.8378 0.0108     1    44 0.9175 0.9128 0.9222 0.2166  8890   849   750
+=====================================================================================
+============evaluation with confidence threshold 0.225000, recall 0.919623===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8123 0.8695 0.8378 0.0108     1    44 0.9188 0.9154 0.9222 0.2097  8890   822   750
+=====================================================================================
+============evaluation with confidence threshold 0.250000, recall 0.919003===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8133 0.8697 0.8378 0.0108     1    44 0.9191 0.9162 0.9222 0.2075  8884   813   750
+=====================================================================================
+============evaluation with confidence threshold 0.275000, recall 0.919003===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8142 0.8697 0.8378 0.0108     1    44 0.9195 0.9168 0.9222 0.2057  8884   806   750
+=====================================================================================
+============evaluation with confidence threshold 0.300000, recall 0.918382===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8207 0.8698 0.8378 0.0108     1    44 0.9221 0.9220 0.9221 0.1916  8878   751   750
+=====================================================================================
+============evaluation with confidence threshold 0.325000, recall 0.918279===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8217 0.8698 0.8378 0.0108     1    44 0.9224 0.9228 0.9221 0.1896  8877   743   750
+=====================================================================================
+============evaluation with confidence threshold 0.350000, recall 0.917968===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8236 0.8699 0.8378 0.0108     1    43 0.9232 0.9246 0.9218 0.1847  8874   724   753
+=====================================================================================
+============evaluation with confidence threshold 0.375000, recall 0.917658===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8258 0.8700 0.8378 0.0162     1    43 0.9240 0.9264 0.9217 0.1799  8871   705   754
+=====================================================================================
+============evaluation with confidence threshold 0.400000, recall 0.917244===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8280 0.8701 0.8378 0.0162     1    42 0.9249 0.9286 0.9212 0.1740  8867   682   758
+=====================================================================================
+============evaluation with confidence threshold 0.425000, recall 0.916417===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8304 0.8702 0.8378 0.0162     1    41 0.9258 0.9309 0.9208 0.1679  8859   658   762
+=====================================================================================
+============evaluation with confidence threshold 0.450000, recall 0.915693===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8321 0.8704 0.8378 0.0162     1    41 0.9264 0.9322 0.9207 0.1643  8852   644   762
+=====================================================================================
+============evaluation with confidence threshold 0.475000, recall 0.914451===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8314 0.8705 0.8378 0.0216     1    40 0.9260 0.9322 0.9200 0.1641  8840   643   769
+=====================================================================================
+============evaluation with confidence threshold 0.500000, recall 0.913520===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8340 0.8707 0.8378 0.0216     1    39 0.9270 0.9346 0.9196 0.1577  8831   618   772
+=====================================================================================
+============evaluation with confidence threshold 0.525000, recall 0.911969===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8379 0.8708 0.8324 0.0270     1    39 0.9285 0.9379 0.9194 0.1490  8816   584   773
+=====================================================================================
+============evaluation with confidence threshold 0.550000, recall 0.911658===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8383 0.8708 0.8324 0.0270     1    38 0.9287 0.9385 0.9191 0.1475  8813   578   776
+=====================================================================================
+============evaluation with confidence threshold 0.575000, recall 0.910520===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8372 0.8712 0.8324 0.0270     1    35 0.9281 0.9386 0.9179 0.1470  8802   576   787
+=====================================================================================
+============evaluation with confidence threshold 0.600000, recall 0.909072===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8376 0.8714 0.8324 0.0324     1    33 0.9282 0.9402 0.9165 0.1426  8788   559   801
+=====================================================================================
+============evaluation with confidence threshold 0.625000, recall 0.907417===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8383 0.8718 0.8324 0.0378     1    32 0.9284 0.9412 0.9158 0.1398  8772   548   806
+=====================================================================================
+============evaluation with confidence threshold 0.650000, recall 0.906693===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8376 0.8719 0.8270 0.0378     1    31 0.9280 0.9413 0.9151 0.1396  8765   547   813
+=====================================================================================
+============evaluation with confidence threshold 0.675000, recall 0.904003===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8358 0.8719 0.8216 0.0432     1    30 0.9271 0.9411 0.9135 0.1396  8739   547   828
+=====================================================================================
+============evaluation with confidence threshold 0.700000, recall 0.901210===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8360 0.8722 0.8216 0.0486     1    28 0.9270 0.9422 0.9122 0.1363  8712   534   839
+=====================================================================================
+============evaluation with confidence threshold 0.725000, recall 0.897486===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8361 0.8727 0.8108 0.0595     1    28 0.9267 0.9440 0.9101 0.1314  8676   515   857
+=====================================================================================
+============evaluation with confidence threshold 0.750000, recall 0.895314===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8409 0.8729 0.8054 0.0595     1    27 0.9285 0.9492 0.9088 0.1181  8655   463   869
+=====================================================================================
+============evaluation with confidence threshold 0.775000, recall 0.893245===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8434 0.8730 0.7946 0.0757     1    27 0.9294 0.9529 0.9071 0.1090  8635   427   884
+=====================================================================================
+============evaluation with confidence threshold 0.800000, recall 0.886211===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8391 0.8731 0.7730 0.0919     1    25 0.9271 0.9545 0.9012 0.1041  8567   408   939
+=====================================================================================
+============evaluation with confidence threshold 0.825000, recall 0.882073===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8419 0.8735 0.7622 0.1081     1    25 0.9280 0.9598 0.8981 0.0911  8527   357   967
+=====================================================================================
+============evaluation with confidence threshold 0.850000, recall 0.872660===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8329 0.8748 0.7405 0.1405     0    23 0.9231 0.9624 0.8868 0.0837  8402   328  1072
+=====================================================================================
+============evaluation with confidence threshold 0.875000, recall 0.850109===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8188 0.8762 0.7189 0.1838     0    20 0.9155 0.9650 0.8707 0.0760  8218   298  1220
+=====================================================================================
+============evaluation with confidence threshold 0.900000, recall 0.840281===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.8139 0.8761 0.6973 0.2054     0    20 0.9124 0.9678 0.8630 0.0689  8123   270  1289
+=====================================================================================
+============evaluation with confidence threshold 0.925000, recall 0.789697===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.7717 0.8768 0.5946 0.3243     0    19 0.8887 0.9720 0.8185 0.0561  7634   220  1693
+=====================================================================================
+============evaluation with confidence threshold 0.950000, recall 0.676528===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.6642 0.8774 0.4216 0.5297     0    15 0.8230 0.9761 0.7113 0.0408  6540   160  2654
+=====================================================================================
+============evaluation with confidence threshold 0.975000, recall 0.463846===========
+ MOTA   MOTP    MT     ML     IDS  FRAG    F1   Prec  Recall  FAR     TP    FP    FN
+0.4622 0.8722 0.1514 0.8378     0    11 0.6656 0.9896 0.5014 0.0120  4484    47  4459
+=====================================================================================
+====================evaluation: best results with single threshold===================
+Multiple Object Tracking Accuracy (MOTA)                                  0.8434
+Multiple Object Tracking Precision (MOTP)                                 0.8730
+Multiple Object Tracking Accuracy (MOTAL)                                 0.8435
+Multiple Object Detection Accuracy (MODA)                                 0.8435
+Multiple Object Detection Precision (MODP)                                0.8958
+
+Recall                                                                    0.9071
+Precision                                                                 0.9529
+F1                                                                        0.9294
+False Alarm Rate                                                          0.1090
+
+Mostly Tracked                                                            0.7946
+Partly Tracked                                                            0.1297
+Mostly Lost                                                               0.0757
+
+True Positives                                                              8635
+Ignored True Positives                                                      1140
+False Positives                                                              427
+False Negatives                                                              884
+Ignored False Negatives                                                     1331
+ID-switches                                                                    1
+Fragmentations                                                                27
+
+Ground Truth Objects (Total)                                               10850
+Ignored Ground Truth Objects                                                2471
+Ground Truth Trajectories                                                    210
+
+Tracker Objects (Total)                                                     9742
+Ignored Tracker Objects                                                      680
+Tracker Trajectories                                                         703
+=====================================================================================
+===================evaluation: average over confidence score====================
+ AMOTA  AMOTP 
+0.8070 0.8713
+================================================================================
