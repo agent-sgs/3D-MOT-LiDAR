@@ -1,39 +1,26 @@
-# kitti-object-eval-python
-**Note**: This is borrowed from [traveller59/kitti-object-eval-python](https://github.com/traveller59/kitti-object-eval-python)
+# kitti-object/mot-eval-python
+**Note**: The kitti-object-eval-python is borrowed from [traveller59/kitti-object-eval-python](https://github.com/traveller59/kitti-object-eval-python)
 
-Fast kitti object detection eval in python(finish eval in less than 10 second), support 2d/bev/3d/aos. , support coco-style AP. If you use command line interface, numba need some time to compile jit functions.
+The kitti-mot-eval-python is builded on top of [AB3DMOT](https://github.com/xinshuoweng/AB3DMOT/tree/master/evaluation)
+
 ## Dependencies
 Only support python 3.6+
 
 ```
-
+pip install tqdm scipy scikit-image
+conda install numba
 ```
 
-If you have Anaconda, just install `cudatoolkit` in anaconda. Otherwise, please reference to this [page](https://github.com/numba/numba#custom-python-environments) to set up llvm and cuda for numba.
-
-* Install by conda:
-```
-conda install -c numba cudatoolkit=x.x  (8.0, 9.0, 9.1, depend on your environment) 
-```
 ## Usage
-* commandline interface:
+* evaluate 2D/2D BEV/3D MOT for predicted 3D trajectories on KITTI 3D dataset:
 ```
-python evaluate.py evaluate --label_path=/path/to/your_gt_label_folder --result_path=/path/to/your_result_folder --label_split_file=/path/to/val.txt --current_class=0 --coco=False
+# python evaluation/evaluate_kitti3dmot.py result_path eval_type
+python evaluation/evaluate_kitti3dmot.py results/PVRCNN/ 2D
+python evaluation/evaluate_kitti3dmot.py results/PVRCNN/ BEV
+python evaluation/evaluate_kitti3dmot.py results/PVRCNN/ 3D
 ```
-* python interface:
+* 3D Object evaluation tools :
 ```Python
-import kitti_common as kitti
-from eval import get_official_eval_result, get_coco_eval_result
-def _read_imageset_file(path):
-    with open(path, 'r') as f:
-        lines = f.readlines()
-    return [int(line) for line in lines]
-det_path = "/path/to/your_result_folder"
-dt_annos = kitti.get_label_annos(det_path)
-gt_path = "/path/to/your_gt_label_folder"
-gt_split_file = "/path/to/val.txt" # from https://xiaozhichen.github.io/files/mv3d/imagesets.tar.gz
-val_image_ids = _read_imageset_file(gt_split_file)
-gt_annos = kitti.get_label_annos(gt_path, val_image_ids)
-print(get_official_eval_result(gt_annos, dt_annos, 0)) # 6s in my computer
-print(get_coco_eval_result(gt_annos, dt_annos, 0)) # 18s in my computer
+# python evaluation/evaluate_kitti3dobject.py split result_path 
+python evaluation/evaluate_kitti3dobject.py val results/PVRCNN/data/ --class_name Car
 ```

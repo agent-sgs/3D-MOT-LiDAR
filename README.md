@@ -10,6 +10,7 @@ It is also the official code release of TC3DMOT.
 
 - [Changelog](#Changelog)
 - [Abstract](#Abstract)
+- [Evaluation Tools](##Evaluation Tools)
 - [Main Results](#3d-multi-object-tracking)
 - [Installation](#Installation)
 - [Acknowledgement](#acknowledgement)
@@ -25,8 +26,12 @@ Recent 3D MOT methods tend to develop practical systems with accuracy and effici
 <p align="center">
   <img src="docs/framework.png" width="95%">
 </p>
+### Evaluation Tools
+
+We provide 2D/2D BEV/3D MOT evaluation tools for extensive evaluation of the MOT system across the full spectrum of trajectory confidence thresholds. Please refer to [EVALUATION](evaluation/README.md) for usage of our evaluation tools.
 
 ### Main Results
+
 #### 3D MOT Evaluation on KITTI MOT Validation Set
 
 We experiment with different types of point cloud-based 3D object detectors such as SA-SSD, PointRCNN and PV-RCNNN, which are trained on the KITTI train split. The quantitative **3D MOT** results are on the KITTI val set for car.
